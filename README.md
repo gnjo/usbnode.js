@@ -21,4 +21,14 @@ let url=[baseurl,filepath,filename].join('/')
 fetch(url,{method:'post',body:base64data}) //upload
 fetch(url) //get
 
+//server.js
+
+let is={}
+is.base64
+function toBlob(base64){
+//cut this 
+//data:*/*;base64
+}
+
+
 ```
