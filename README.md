@@ -6,6 +6,7 @@ node.exe
 server.js
 index.html
 /public
+/note
 cmd.bat
 
 //
@@ -30,5 +31,8 @@ function toBlob(base64){
 //data:*/*;base64
 }
 
+//note
+//localhost:8080/note/xyz.txt
+//note以下に適当にファイル名をつけるだけで、そのファイル名のテキストファイルが生成される。
 
 ```
