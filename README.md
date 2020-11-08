@@ -2,16 +2,21 @@
 usb stick on node
 ```
 
+//アプリケーションはフォルダ駆動、そのフォルダのindex.htmlがアプリケーションとなる。
+//配下のディレクトリの存在をserver.jsは自動で判断する。
+
+cmd.bat
 node.exe
 server.js
-index.html
 /public
+ index.html
 /note
-cmd.bat
+ index.html
+
 
 //
 //cmd.bat
-node.exe server.js localhost:8080 public
+node.exe server.js localhost:8080
 
 //index.html
 //
