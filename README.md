@@ -6,9 +6,10 @@ node.exe
 server.js
 index.html
 /public
+cmd.bat
 
 //
-//cmd
+//cmd.bat
 node.exe server.js localhost:8080 public
 
 //index.html
